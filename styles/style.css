@@ -1,0 +1,293 @@
+:root {
+    --white: #E9E9E9;
+    --white-nft: #F4EFEB;
+    --black: #060606;
+    --black-nft: #2A2A2A;
+    --violet: #854DBC;
+    --red: #E54051;
+    --darkred: #87242e;
+    --red-nft: #D7123F;
+    --failed: #d3071b;
+    --success: #38b000;
+    --orange: #E58910;
+    --blue: #27D6BE;
+    --blue-nft: #49BEF4;
+    --darkgrey: #333356;
+    --darkviolet: #1d1d2a;
+    --lightgrey: #7d7d7d;
+    --beige: #DFD8BB;
+    --font-family-primary: 'Optimprove';
+    --font-family-secondary: 'SpockPro';
+    --fast-transition: 0.25s;
+    --basic-transition: 0.5s;
+    --middle-transition: 1s;
+    --slow-transition: 2s;
+    --little-width: 1px;
+    --basic-width: 2px;
+    --big-width: 4px;
+    --large-width: 6px;
+    --gap: 100px;
+}
+
+a[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."] {
+    display: none !important;
+}
+
+@font-face {
+    font-family: 'Optimprove';
+    src: url('../fonts/optimprove.otf');
+}
+
+@font-face {
+    font-family: 'SpockPro';
+    src: url('../fonts/SpockPro-Bold.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header>menu.responsive,
+header svg,
+header menu :is(p, menu) {
+    display: none;
+}
+
+menu>a:nth-child(1) {
+    order: 8;
+}
+
+header :is(.svg, a, i),
+details>summary {
+    cursor: pointer;
+}
+
+.counter {
+    width: 180px;
+    padding: 0 20px;
+    height: 150px;
+    font-size: 60px;
+}
+
+.our-vision {
+    margin-top: -4px;
+}
+
+.brands {
+    margin-top: -10px;
+}
+
+
+.font-footer {
+    font-size: 20px;
+}
+
+div.root-1 div.root-supply {
+    box-shadow: transparent 0px 0px 0px 2px inset, var(--black) -20px -20px 0px -8px, var(--white) -20px -20px;
+}
+
+div.root-2 div.root-supply {
+    box-shadow: transparent 0px 0px 0px 2px inset, var(--white) -20px -20px 0px -8px, var(--black) -20px -20px;
+}
+
+div.root-3 div.root-supply {
+    box-shadow: transparent 0px 0px 0px 2px inset, var(--orange) -20px -20px 0px -8px, var(--black) -20px -20px;
+}
+
+.root>.root-right {
+    min-width: 300px;
+}
+
+div.root-3 div.root-left {
+    order: 2;
+}
+
+div.root-2 div.root-middle {
+    align-self: center;
+}
+
+div.root-2 div.root-left {
+    padding-top: 50px;
+}
+
+.card {
+    padding: 10px 15px;
+    height: 515px;
+    width: 250px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-5%);
+}
+
+.title {
+    transition: 0s;
+    transform: rotate(-90deg);
+    font-size: 55px;
+    white-space: nowrap;
+    position: absolute;
+    margin-left: -190px;
+}
+
+.card:nth-child(1)>.title {
+    margin-bottom: 20px;
+}
+
+.text {
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+.roadmaps {
+    gap: 20px;
+}
+
+section.faqs>.title-faqs h2 {
+    font-size: 19vw;
+    overflow: hidden;
+    width: 50%;
+}
+
+section.faqs>.title-faqs .top {
+    margin-top: -7.5%;
+}
+
+section.faqs>.title-faqs .bottom {
+    margin-bottom: -5.2%;
+    margin-top: -7%;
+}
+
+section.faqs>.title-faqs>.top>h2.left {
+    margin-left: -14vw;
+    width: 70vw;
+}
+
+section.faqs>.title-faqs>.top>h2.right {
+    width: 45vw;
+}
+
+section.faqs>.title-faqs>.bottom>h2.left {
+    margin-left: -14vw;
+    width: 60vw;
+}
+
+section.faqs>.title-faqs>.bottom>h2.right {
+    width: 55vw;
+}
+
+details:nth-child(1) {
+    margin-top: 20px;
+}
+
+details {
+    padding-left: 2%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 2px solid var(--lightgrey);
+    width: 98%;
+}
+
+details[open] p {
+    margin-left: 40px;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.details-content {
+    color: var(--lightgrey);
+}
+
+.title-card-nft {
+    font-family: var(--font-family-secondary);
+}
+
+
+div.title-ourteam h2.text-ourteam {
+    font-size: 14.5vw;
+    letter-spacing: 10px;
+    overflow: hidden;
+}
+
+div.title-ourteam h2.text-ourteam:nth-child(1) {
+    margin-left: -4.8vw;
+}
+
+div.title-ourteam h2.text-ourteam:nth-child(2) {
+    margin-left: -10vw;
+    text-shadow: 6px 0 0 black, 6px 6px 0 black, 0 6px 0 black, -6px 6px 0 black, -6px 0 0 black, -6px -6px 0 black, 0 -6px 0 black, 6px -6px 0 black;
+}
+
+div.title-ourteam h2.text-ourteam:nth-child(3) {
+    margin-left: 3vw;
+}
+
+.buttons-switch {
+    width: 80%;
+}
+
+div.container-btn-cards {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container-btn-cards>button {
+    width: 50%;
+    min-width: 326px;
+}
+
+aside.all-founder-cards {
+    width: 80%;
+}
+
+div.card-founder,
+div.card-helper {
+    max-width: 400px;
+    gap: 15px;
+    max-height: 790px;
+    align-items: center;
+    border-radius: 25px;
+}
+
+img.img-nft {
+    width: 90%;
+}
+
+div.card-helper img.img-nft {
+    margin-top: 19.33px;
+}
+
+div.footer-card-founder,
+div.footer-card-helpers {
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 22px 22px;
+}
+
+aside.all-helpers-cards {
+    margin-top: -2vw;
+}
+
+/* .buttons-switch>button {
+    width: 250px;
+} */
+
+.started-left {
+    min-width: 300px;
+}
+
+.started-right {
+    min-width: 300px;
+}
+
+footer {
+    padding: 30px 0;
+}
