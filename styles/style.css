@@ -5,15 +5,15 @@
     --black-nft: #2A2A2A;
     --violet: #854DBC;
     --red: #E54051;
-    --darkred: #87242e;
-    --red-nft: #D7123F;
+    --darkred: #691c24;
+    --red-nft: #be0f37;
     --failed: #d3071b;
     --success: #38b000;
     --orange: #E58910;
     --blue: #27D6BE;
-    --blue-nft: #49BEF4;
-    --darkgrey: #333356;
-    --darkviolet: #1d1d2a;
+    --blue-nft: #43aee0;
+    --darkgrey: #313152;
+    --darkviolet: #13131c;
     --lightgrey: #7d7d7d;
     --beige: #DFD8BB;
     --font-family-primary: 'Optimprove';
@@ -45,6 +45,10 @@ a[title="Hosted on free web hosting 000webhost.com. Host your own website for FR
 
 html {
     scroll-behavior: smooth;
+}
+
+img{
+    object-fit: cover;
 }
 
 header>menu.responsive,

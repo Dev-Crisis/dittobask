@@ -10,7 +10,7 @@ function Insertcounter() {
   date1 = new Date();
   date2 = new Date("2023-08-30");
   let diff = dateDiff(date1, date2);
-  if (diff.sec == 0 && diff.min == 0 && diff.hour == 0 && diff.day == 0) {
+  if (diff.sec === 0 && diff.min === 0 && diff.hour === 0 && diff.day === 0) {
     select("#counter-days").textContent = 0;
     select("#counter-hours").textContent = 0;
     select("#counter-min").textContent = 0;
@@ -18,7 +18,7 @@ function Insertcounter() {
       Fiesta();
       cycle++;
     }
-  } else if (diff.day == 0) {
+  } else if (diff.day === 0) {
     select("#text-counter-days").textContent = "Hours";
     select("#text-counter-hours").textContent = "Minutes";
     select("#text-counter-minutes").textContent = "Seconds";
