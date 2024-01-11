@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-    content: ["./**/*.{html,js}"],
+export default {
+    content: [
+        "./index.html",
+    ],
     theme: {
         fontFamily: {
             'primary': ['Optimprove', 'sans-serif'],

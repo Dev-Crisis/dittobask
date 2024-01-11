@@ -19,12 +19,13 @@ Un site vitrine mettant en avant des NFT originales et amusantes. Explorez notre
 
 ## Exemples
 
-![Exemple 1](/img/md/screen-1.webp)<br>
-![Exemple 2](/img/md/screen-2.webp)
+![Exemple 1](/img/preview.png)<br>
+![Exemple 2](/img/preview-2.png)
 
 ## Installation
 
 1. Clonez le repository:
 
    ```bash
-   git clone https://github.com/Dev-Crisis/dittobask
+   git clone https://github.com/Dev-Crisis/dittobask && npm run dev
+   
