@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Optimprove';
-    src: url('/fonts/optimprove.otf');
+    src: url('./fonts/optimprove.otf');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'SpockPro';
-    src: url('/fonts/SpockPro-Bold.otf');
+    src: url('./fonts/SpockPro-Bold.otf');
     font-display: swap;
 }
 
