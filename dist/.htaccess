@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # If the request is for a real file or directory, serve it
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+
+  # Otherwise, rewrite the URL to point to the index.html file
+  RewriteRule ^ - [L]
+
+  # All other requests go to index.html
+  RewriteRule ^ index.html [L]
+</IfModule>
+<FilesMatch "\.(webp|css|js|ttf)$">
+  Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
