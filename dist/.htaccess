@@ -12,6 +12,6 @@
   # All other requests go to index.html
   RewriteRule ^ index.html [L]
 </IfModule>
-<FilesMatch "\.(webp|css|js|ttf)$">
+<FilesMatch "\.(webp|css|js|otf)$">
   Header set Cache-Control "public, max-age=31536000, immutable"
 </FilesMatch>
