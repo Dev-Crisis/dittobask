@@ -17,12 +17,12 @@ import discord_responsive from "@assets/img/discord_responsive.webp";
 	        <div
 	          class="bg-[var(--black)] pl-2 md:w-auto rounded-md shadow-2xl transition-all duration-300 cursor-pointer hover:-translate-y-4 h-[480px] flex justify-start items-center"
 	        >
-	          <h6
+	          <h4
 	            class="uppercase font-primary font-bold text-[var(--white)] w-full text-center text-7xl"
 	            style="writing-mode: vertical-lr"
 	          >
 	            phase 1
-	          </h6>
+	          </h4>
 	          <div class="p-20">
 	            <p class="font-secondary text-[var(--white)]">test</p>
 	            <p class="font-secondary text-[var(--white)]">test</p>
@@ -34,12 +34,12 @@ import discord_responsive from "@assets/img/discord_responsive.webp";
 	        <div
 	          class="bg-[var(--black)] pl-2 md:w-auto rounded-md shadow-2xl transition-all duration-300 cursor-pointer hover:-translate-y-4 h-[480px] flex justify-start items-center"
 	        >
-	          <h6
+	          <h4
 	            class="uppercase font-primary font-bold text-[var(--blue)] w-full text-center text-7xl"
 	            style="writing-mode: vertical-lr"
 	          >
 	            phase 2
-	          </h6>
+	          </h4>
 	          <div class="p-20">
 	            <p class="font-secondary text-[var(--blue)]">test</p>
 	            <p class="font-secondary text-[var(--blue)]">test</p>
@@ -51,12 +51,12 @@ import discord_responsive from "@assets/img/discord_responsive.webp";
 	        <div
 	          class="bg-[var(--black)] pl-2 md:w-auto rounded-md shadow-2xl transition-all duration-300 cursor-pointer hover:-translate-y-4 h-[480px] flex justify-start items-center"
 	        >
-	          <h6
+	          <h4
 	            class="uppercase font-primary font-bold text-[var(--orange)] w-full text-center text-7xl"
 	            style="writing-mode: vertical-lr"
 	          >
 	            phase 3
-	          </h6>
+	          </h4>
 	          <div class="p-20">
 	            <p class="font-secondary text-[var(--orange)]">test</p>
 	            <p class="font-secondary text-[var(--orange)]">test</p>
@@ -70,6 +70,7 @@ import discord_responsive from "@assets/img/discord_responsive.webp";
 	        :src="discord"
 	        alt="Join Our Discord"
 	        class="w-[80vw] md:w-[40%] animate-heartbeat"
+			width="560px" height="180px"
 	        :srcset="discord_responsive + ' 480w, ' + discord + ' 800w'"
 	        sizes="(max-width: 600px) 480px,
 	                800px"

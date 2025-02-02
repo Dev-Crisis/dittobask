@@ -147,7 +147,7 @@ const selectByType = (type) => {
           :class="item.type"
           class="flex flex-col items-start justify-between overflow-hidden gap-6 pt-4 border-4 border-[var(--lightgrey)] rounded-3xl max-w-[350px] md:max-w-[380px] xl:max-w-[400px]"
         >
-          <img :src="item.image" alt="Helper 1" class="w-[90%] self-center" />
+          <img :src="item.image" alt="Helper 1" class="w-[90%] self-center" width="320px" height="440px" />
           <div class="flex gap-6 items-center justify-start px-3">
             <img
               :src="item.pp"
@@ -159,9 +159,9 @@ const selectByType = (type) => {
               item.at
             }}</span>
           </div>
-          <h6 class="font-secondary text-[var(--white)] text-sm px-3">
+          <h4 class="font-secondary text-[var(--white)] text-sm px-3">
             {{ item.name }}
-          </h6>
+          </h4>
           <div class="flex flex-col justify-center gap-2 px-3">
             <span class="font-secondary text-[var(--lightgrey)] text-sm"
               >Current bio</span
