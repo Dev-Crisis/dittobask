@@ -27,13 +27,13 @@
 @layer base {
   @font-face {
     font-family: 'Optimprove';
-    src: url('./fonts/optimprove.otf');
+    src: url('@assets/fonts/optimprove.otf');
     font-display: swap;
   }
 
   @font-face {
     font-family: 'SpockPro';
-    src: url('./fonts/SpockPro-Bold.otf');
+    src: url('@assets/fonts/spockpro.otf');
     font-display: swap;
   }
 
@@ -375,14 +375,3 @@
     animation-delay: -0.4s;
   }
 }
-
-/* Element styles */
-
-/* Parent wrapper */
-
-/* @keyframes fireworkPseudo {
-  0% { transform: translate(-50%, -50%); width: var(--initialSize); opacity: 1; }
-  50% { width: 0.5vmin; opacity: 1; }
-  100% { width: var(--finalSize); opacity: 0; }
-}
- */
