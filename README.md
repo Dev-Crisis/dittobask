@@ -1,5 +1,31 @@
-# Vue 3 + Vite
+# Dittobask
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Description
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Un site vitrine mettant en avant des NFT originales et amusantes. Explorez notre collection unique et découvrez l'art numérique de qualité.
+
+## Fonctionnalités
+
+- Présentation des NFT avec des descriptions détaillées.
+- Navigation conviviale et intuitive.
+- Possibilité de filtrer et de trier les NFT.
+- Fonctionnalités interactives pour une expérience utilisateur enrichissante.
+
+## Technologies Utilisées
+
+- HTML - Vanilla
+- CSS - TailwindCss
+- JavaScript -Vanilla
+
+## Exemples
+
+![Exemple 1](/img/preview.png)<br>
+![Exemple 2](/img/preview-2.png)
+
+## Installation
+
+1. Clonez le repository:
+
+   ```bash
+   git clone https://github.com/Dev-Crisis/dittobask && npm run dev
+   

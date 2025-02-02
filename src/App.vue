@@ -1,30 +1,39 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
+import HeroBanner from "./components/HeroBanner.vue";
+import OurVision from "./components/OurVision.vue";
+import Roots from "./components/Roots.vue";
+import RoadMap from "./components/RoadMap.vue";
+import Faqs from "./components/Faqs.vue";
+import Team from "./components/Team.vue";
+import HowItStarted from "./components/HowItStarted.vue";
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
-</template>
+  <Header />
+  <!-- MAIN -->
+  <main class="pt-4 md:pt-6">
+    <!-- HERO BANNER -->
+    <HeroBanner />
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+    <!-- OUR VISION -->
+    <OurVision />
+
+    <!-- ROOTS -->
+    <Roots />
+
+    <!-- ROADMAP -->
+    <RoadMap />
+
+    <!-- FAQS -->
+    <Faqs />
+
+    <!-- TEAMS -->
+    <Team />
+
+    <!-- HOW IT STARTED -->
+    <HowItStarted />
+  </main>
+  <Footer />
+</template>
